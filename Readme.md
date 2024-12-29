@@ -12,9 +12,19 @@ Ensure you have the following installed on your system:
 
 ---
 
-## Installation Steps
+## Installation and Setup
 
-### Step 1: Install Dependencies
-To install the required dependencies, use the following command:
+You can follow these steps in one go to set up the project:
+
 ```bash
+# Step 1: Create a Conda environment (recommended)
+conda create --name economic_analysis python=3.12.7
+
+# Step 2: Activate the environment
+conda activate economic_analysis
+
+# Step 3: Install dependencies
 pip install -r requirements.txt
+
+# Step 4: Deactivate the environment (when you're done)
+conda deactivate
