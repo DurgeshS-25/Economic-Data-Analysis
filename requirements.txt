@@ -2,4 +2,7 @@ pandas
 seaborn
 matplotlib
 numpy
-
+python-dotenv
+fredapi
+TIME-python
+plotly.express
